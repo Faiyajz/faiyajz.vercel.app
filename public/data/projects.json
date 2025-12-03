@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "MEmail",
+      "timeline": "Feb 2021 - Present",
+      "description": "Enterprise membership & attendance system for non-profit organizations.",
+      "impact": "20% faster loading via Redis cache",
+      "tech": ["PHP", "Laravel", "NextJS", "MySQL", "Docker", "AWS", "Nginx"],
+      "link": "https://github.com/faiyajz"
+    },
+    {
+      "name": "AlgoHRM",
+      "timeline": "Feb 2020 - Nov 2020",
+      "description": "HRM + payroll solution with attendance, leave, and audits.",
+      "tech": ["Laravel", "JavaScript", "MySQL", "Docker", "Nginx"]
+    }
+  ]
+}
