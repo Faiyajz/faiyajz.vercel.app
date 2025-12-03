@@ -19,10 +19,11 @@ export const SkillsWall = ({ skills }: SkillsWallProps) => {
                 {skills.map((skill: string) => (
                     <span
                         key={skill}
-                        className="px-4 py-2 bg-white border border-[var(--border)] rounded-2xl text-xs font-semibold text-[var(--text-light)] hover:shadow-md transition"
+                        className="px-3 py-1 bg-white border border-gray-200 rounded-full text-xs font-medium hover:shadow-md hover:border-blue-300 hover:text-blue-600 transition-all cursor-pointer"
                     >
-            {skill}
-          </span>
+                      {skill}
+                    </span>
+
                 ))}
             </div>
         </section>

@@ -1,4 +1,3 @@
-// src/shared/hooks/useTheme.ts
 import { useEffect, useState } from "react";
 
 export type ThemeMode = "light" | "dark";
